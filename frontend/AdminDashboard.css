@@ -1,0 +1,30 @@
+.admin-dashboard {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.admin-dashboard .MuiCardContent-root {
+    padding: 20px;
+}
+
+.admin-dashboard h2 {
+    text-align: center;
+}
+
+.admin-dashboard button {
+    margin-right: 10px;
+    padding: 8px 16px;
+}
+
+.admin-dashboard .MuiTextField-root {
+    margin-bottom: 10px;
+}
+
+.admin-dashboard .MuiButton-root {
+    margin-top: 10px;
+}
+
+.admin-dashboard .MuiTypography-root {
+    font-weight: bold;
+}

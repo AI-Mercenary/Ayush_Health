@@ -1,0 +1,74 @@
+.containermidhead{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rowmidhead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.col1midhead,.col2midhead,.col3midhead, .col4midhead{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    /* margin:0px 50px 0px 25px; */
+}
+
+col2midhead,.col3midhead,.col4midhead{
+    margin:0px 50px 0px 50px;
+}
+
+@media (max-width: 600px) {
+	.col3midhead {
+	  display: none; /* Hides the div */
+	}
+  }
+  @media (max-width: 680px) {
+	.col4midhead {
+	  display: none; /* Hides the div */
+	}
+  }
+
+.col2midhead{
+   color: #040d4a;
+   font-size: 20px;
+   font-weight: bolder;
+}
+
+.toplink{
+    font-size: 14px;
+}
+.searchicon{
+    /* border: 2px solid white; */
+     background: linear-gradient(135deg, #0049a6, #00a4e0);
+    padding: 5px;
+    border-radius: 30px;
+    color:white;
+}
+
+.user-manual{
+    background-color: #0049a6; /* Blue background */
+      color: white; /* White text */
+      font-size: 14px; /* Adjust font size */
+      font-weight: bold; /* Make the text bold */
+      padding: 10px 20px; /* Add padding */
+      border: none; /* Remove border */
+      border-radius: 25px; /* Make the button rounded */
+      text-align: center; /* Center the text */
+      cursor: pointer; /* Show a pointer on hover */
+      display: inline-block; /* Inline button */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow */
+      transition: background-color 0.3s ease; /* Smooth hover effect */
+      text-decoration: none;
+}
+
+.col1midhead img{
+    width:70%;
+}

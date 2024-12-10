@@ -1,0 +1,232 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Main Content Section */
+.main-content {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main-content img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+/* Buttons Section */
+button {
+  margin: 10px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Marquee Section */
+.Scroll-Marquee {
+  background-color: #ffcc00;
+  padding: 15px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.Scroll-Marquee-content {
+  display: flex;
+  animation: marquee 20s linear infinite;
+}
+
+.link-notification {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.triangle-left, .triangle-right {
+  width: 10px;
+  height: 10px;
+  background-color: #ffcc00;
+  clip-path: polygon(100% 0%, 0% 50%, 100% 100%);
+}
+
+.Scroll-Marquee-tag {
+  font-size: 1.2rem;
+  color: #003366;
+  margin: 0 10px;
+}
+
+/* Animation for Marquee */
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Content Section */
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #ffffff;
+}
+
+.left-section, .right-section {
+  width: 48%;
+}
+
+.left-section h1 {
+  font-size: 2rem;
+}
+
+.left-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.right-section .card {
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.right-section .card h2 {
+  margin-top: 0;
+}
+
+/* Current Info Section */
+.trusted-partners-section {
+  background-color: #fbb03b;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.trusted-partners-slider {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.slider-track {
+  display: flex;
+  flex-wrap: nowrap;
+  animation: slidePartners 25s linear infinite;
+}
+
+.partner-logo {
+  max-width: 150px;
+  margin: 10px;
+  object-fit: contain;
+}
+
+@keyframes slidePartners {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Testimonials Section */
+.testimonials {
+  background-color: #f1f1f1;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.testimonial-card .feedback {
+  font-style: italic;
+  color: #003366;
+}
+
+.testimonial-card .user-name {
+  font-weight: bold;
+  color: #003366;
+}
+
+.testimonial-card .user-role {
+  color: #666;
+}
+
+/* Current Info Component (Info Grid) */
+.current-info-box {
+  padding: 50px 0;
+  background-color: #fbb03b;
+}
+
+.current-info-box .info-card {
+  background-color: #ffebc5;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.current-info-box .info-card h5 {
+  margin-bottom: 10px;
+  color: #003366;
+}
+
+.current-info-box .info-card p {
+  color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .left-section, .right-section {
+    width: 100%;
+  }
+
+  .testimonials .testimonial-container {
+    flex-direction: column;
+  }
+
+  .trusted-partners-slider .slider-track {
+    flex-direction: column;
+  }
+}

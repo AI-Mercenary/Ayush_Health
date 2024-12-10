@@ -1,0 +1,218 @@
+/* Navbar Logo */
+.navbar-logo {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+  }
+  
+  /* Navbar Links */
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .animated-card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .animated-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #3f51b5; /* Matches AppBar color */
+    color: white;
+  }
+  
+  /* Dashboard and Button Section */
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .dashboard-header h4 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .dashboard-header button {
+    background-color: #64c7cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dashboard-header button:hover {
+    background-color: #56a8a1;
+  }
+  
+  /* Profile Section on Right */
+  .profile-menu {
+    margin-left: auto;
+  }
+  
+  /* Cards Section */
+  .card-colored {
+    background: linear-gradient(to bottom right, #ff9800, #f57c00); /* Same color gradient */
+    /* color: white; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card-colored:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* General Styling */
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .profile-menu {
+    width: 220px;
+  }
+  
+  .profile-menu-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .profile-menu-item:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #ff9800, #f57c00);
+  
+  }
+  
+  .apply-button {
+    background-color: #64c7cc;
+    color: white;
+  }
+  
+  .apply-button:hover {
+    background-color: #56a8a1;
+  }
+  /* Global Styles */
+  
+  /* Default Light Mode */
+  body {
+    background-color: #f4f4f4;
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  a, button, .MuiButton-root {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Light Mode - Navbar */
+  .MuiAppBar-root {
+    background-color: #3f51b5;
+  }
+  
+  /* Dark Mode */
+  body.dark {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .MuiAppBar-root.dark {
+    background-color: #2c2c2c;
+  }
+  
+  /* Dark Mode Button (Icon) */
+  .MuiIconButton-root {
+    color: #fff; /* Ensure the icon stands out in dark mode */
+  }
+  
+  /* Navbar Logo */
+  .navbar-logo {
+    max-height: 40px;
+  }
+  
+  /* Cards */
+  .animated-card {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .card-colored {
+    background-color: #ffffff;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  body.dark .card-colored {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  .MuiCard-root {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Font Size Adjustments */
+  html {
+    font-size: 16px;
+  }
+  
+  html[data-font-size="small"] {
+    font-size: 14px;
+  }
+  
+  html[data-font-size="large"] {
+    font-size: 18px;
+  }
+  
+  /* Grid Layout */
+  .MuiGrid-root {
+    margin: 20px;
+  }
+  
+  /* Button Styles */
+  .MuiButton-root {
+    background-color: #64c7cc;
+    color: white;
+  }
+  
+  .MuiButton-root:hover {
+    background-color: #48a0a0;
+  }
+  
+  /* Profile Dropdown Menu */
+  .MuiMenu-root {
+    width: 220px;
+  }
+  
+  /* Smooth Transition for Dark Mode */
+  body,
+  .MuiAppBar-root,
+  .MuiButton-root,
+  .MuiCard-root {
+    transition: all 0.3s ease;
+  }

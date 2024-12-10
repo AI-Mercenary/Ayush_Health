@@ -1,0 +1,46 @@
+.containerhead{
+    background-color: #0f4ea5;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.rowhead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: white;
+}
+.col1head,.col2head,.col3head{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin:0px 25px 0px 25px;
+}
+
+@media (max-width: 600px) {
+	.col3head {
+	  display: none; /* Hides the div */
+	}
+  }
+
+.topbtn{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding:5px;
+    background-color: #040d4a;
+    color:white;
+    text-decoration: none;
+}
+
+.toplink{
+    font-size: 14px;
+    color:white;
+    text-decoration: none;
+}
+

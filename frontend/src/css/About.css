@@ -1,0 +1,43 @@
+.about-us-container {
+    margin-top: 50px;
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-us-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-us-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-us-heading {
+    color: #2c3e50; /* Dark blue color */
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .about-us-content {
+    color: #555; /* Medium gray color */
+    line-height: 1.8;
+    font-size: 16px;
+  }
+  
+  .about-us-content a {
+    color: #3f51b5; /* MUI primary color */
+    text-decoration: none;
+  }
+  
+  .about-us-content a:hover {
+    text-decoration: underline;
+  }
+  

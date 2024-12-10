@@ -1,0 +1,146 @@
+
+
+.login-container {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width:100%;   
+    /* float: right; */
+  }
+  
+  /* Card shadow and alignment */
+  .login-card {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25), 
+                0 10px 25px #0f4ea5; 
+    border-radius: 40px;
+    /* width: 100%;                 */
+    /* padding: 15px;   */
+    /* width: "400px", */
+  }
+  
+  /* Google button customization */
+  .google-login {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    border: 1px solid #ccc;       
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .google-login:hover {
+    background-color: #f7f7f7;   /* Slight hover effect */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Biometric buttons */
+  .biometric-auth button {
+    margin: 5px 0;
+    padding: 8px 12px;            
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-container .textfield {
+    margin-bottom: 5px;         
+    width: 100%;                 
+  }
+
+  .textfield input {
+    font-size: 14px;             
+    padding: 8px;                 
+  }
+ 
+  .login-button {               
+    padding: 8px 12px;            
+    font-size: 14px;             
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;  
+    color: white;
+  }
+
+  .forget-password-link .link,
+  .signup-link .link {
+    text-decoration: none;
+    font-size: 12px;              /* Smaller font for links */
+    color: #007bff;
+  }
+  
+  .forget-password-link .link:hover,
+  .signup-link .link:hover {
+    text-decoration: underline;
+  }
+
+  .login-container .heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color:#0f4ea5;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px hsla(60, 100%, 85%, 0.858);
+}
+
+.login-card-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.login-card{
+    border-radius: 20px;
+    border:2px solid hsla(60, 100%, 85%, 0.858);
+    padding:10px 100px 10px 100px;
+    margin:20px;
+    
+    
+}
+  
+.circle {
+    margin:15px 0px 2px 0px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid #f4f598bf;
+    background-color: #0f4ea5;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+  }
+ 
+  .subHead{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(6, 156, 156);
+    font-weight: 700;
+  }
+
+  .clickhere{
+    display: inline-flex;
+  }
+
+  @media (max-width: 600px) {
+    .login-card{
+      border-radius: 20px;
+      border:2px solid hsla(60, 100%, 85%, 0.858);
+      padding:10px 0px 10px 0px;
+      margin:20px;
+  }
+  }
+
+  @media (max-width: 600px) {
+    .hide{
+     display: none;
+  }
+  }

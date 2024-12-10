@@ -1,0 +1,42 @@
+
+[{
+    "aadharNo":"123456789012",
+    "firstName": "Sanjay Krishna",
+    "lastName": "Sadhu",
+    "contact": "8522972205",
+    "email": "sanjaykrishnachinna@gmail.com",
+    "pincode": "110001",
+    "address": "1234 Main St, New Delhi",
+    "district": "district1",
+    "state": "state1",
+    "country": "India",
+    "gender": "male"
+  },
+  {
+    "aadharNo":"123456789013",
+    "firstName": "Chaitanya",
+    "lastName": "Doe",
+    "contact": "6301536723",
+    "email": "tnaveenaasp364@gmail.com",
+    "pincode": "110001",
+    "address": "1234 Main St, New Delhi",
+    "district": "district1",
+    "state": "state1",
+    "country": "India",
+    "gender": "male"
+  },
+  {
+    "aadharNo": "123456789014",
+    "firstName": "Krishna",
+    "lastName": "S",
+    "contact": "8247332482",
+    "email": "stevehermione124@gmail.com",
+    "pincode": "110001",
+    "address": "1234 Main St, New Delhi",
+    "district": "district1",
+    "state": "state1",
+    "country": "India",
+    "gender": "male",
+    "password": "jiucrckl"
+  }
+]
